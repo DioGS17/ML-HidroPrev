@@ -1,3 +1,5 @@
+# Script para extrair as cotas dos CSVs brutos
+
 import os
 import pandas as pd
 from calendar import monthrange

@@ -1,3 +1,5 @@
+# Módulo com funções para a análise exploratóra
+
 import os
 import pandas as pd
 import numpy as np
@@ -8,6 +10,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
+'''Organiza os CSVs com as cotas extraídas'''
 def data_processing(path: str, date_start: str, date_end: str, arquivos=None) -> pd.DataFrame:
     # Guardando os nomes dos arquivos
     if arquivos is None:
@@ -49,6 +52,7 @@ def data_processing(path: str, date_start: str, date_end: str, arquivos=None) ->
     return dados
 
 
+'''Plota a sazonalidade das cotas'''
 def seasonal_plot(df: pd.DataFrame, figsize: tuple[int, int], with_std=True):
     fig, ax = plt.subplots(df.shape[1], 1, figsize=figsize, sharey=True)
     fig.subplots_adjust(hspace=1)
@@ -74,6 +78,7 @@ def seasonal_plot(df: pd.DataFrame, figsize: tuple[int, int], with_std=True):
     plt.show()
 
 
+'''Função auxiliar para pegar a cota máxima e mínima de cada ano'''
 def _max_min_year_(series):
   max_year = []
   min_year = []
@@ -88,6 +93,7 @@ def _max_min_year_(series):
   return max_year,min_year
 
 
+'''Plota a cota anual'''
 def annual_plot(df: pd.DataFrame, figsize: tuple[int, int]):
     fig, ax = plt.subplots(df.shape[1], 1, figsize=figsize, sharey=True)
     fig.subplots_adjust(hspace=1)
@@ -111,6 +117,8 @@ def annual_plot(df: pd.DataFrame, figsize: tuple[int, int]):
     plt.show()
 
 
+'''Realiza a correlação cruzada entre as séries temporais para verificar o tempo
+em que uma afeta a outra'''
 def cross_corr(df: pd.DataFrame, tgt: str):
     dados_dessazonalizados = df.copy()
 
