@@ -50,7 +50,7 @@ def processar_dados(file_path):
     dados_diarios_2 = dados_diarios.groupby(['DataCompleta']).mean().round(0)
 
     # Coloque o caminho para salvar o CSV
-    output_csv_path = os.path.join("/home/dsantos/ML HidroPrev/Datasets processados", f'dados_diarios_estacao_{numero_estacao}.csv')
+    output_csv_path = os.path.join("/home/dsantos/ML HidroPrev/Cotas extraidas", f'dados_diarios_estacao_{numero_estacao}.csv')
 
     # Salvando CSV
     dados_diarios_2.to_csv(output_csv_path, sep=';', encoding='utf-8')
