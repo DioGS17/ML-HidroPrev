@@ -1,16 +1,16 @@
-Agência Nacional de Águas - ANA
-Superintendência de Gestão da Rede Hidrometeorológica-SGH
-Sistema de Informações Hidrológicas - Versão WEB
+Agï¿½ncia Nacional de ï¿½guas - ANA
+Superintendï¿½ncia de Gestï¿½o da Rede Hidrometeorolï¿½gica-SGH
+Sistema de Informaï¿½ï¿½es Hidrolï¿½gicas - Versï¿½o WEB
 Fone: (61) 2109-5242
 E-mail: hidro@ana.gov.br
 
 NivelConsistencia: 1 = Bruto, 2 = Consistido
-MediaDiaria: Indica se a medição é média diaria ou instantânea.  0 = Não , 1 = Sim
-TipoMedicaoCotas: 1 = Escala, 2 = Linígrafo, 3 = Data Logger, 5 = Escala SMS
-Status: 0 = Branco, 1 = Real, 2 = Estimado, 3 = Duvidoso, 4 = Régua Seca
+MediaDiaria: Indica se a mediï¿½ï¿½o ï¿½ mï¿½dia diaria ou instantï¿½nea.  0 = Nï¿½o , 1 = Sim
+TipoMedicaoCotas: 1 = Escala, 2 = Linï¿½grafo, 3 = Data Logger, 5 = Escala SMS
+Status: 0 = Branco, 1 = Real, 2 = Estimado, 3 = Duvidoso, 4 = Rï¿½gua Seca
 
-Restrições da consulta:
-Código da Estação:14790000
+Restriï¿½ï¿½es da consulta:
+Cï¿½digo da Estaï¿½ï¿½o:14790000
 
 
 EstacaoCodigo;NivelConsistencia;Data;hora;MediaDiaria;TipoMedicaoCotas;Maxima;Minima;Media;DiaMaxima;DiaMinima;MaximaStatus;MinimaStatus;MediaStatus;MediaAnual;MediaAnualStatus;Cota01;Cota02;Cota03;Cota04;Cota05;Cota06;Cota07;Cota08;Cota09;Cota10;Cota11;Cota12;Cota13;Cota14;Cota15;Cota16;Cota17;Cota18;Cota19;Cota20;Cota21;Cota22;Cota23;Cota24;Cota25;Cota26;Cota27;Cota28;Cota29;Cota30;Cota31;Cota01Status;Cota02Status;Cota03Status;Cota04Status;Cota05Status;Cota06Status;Cota07Status;Cota08Status;Cota09Status;Cota10Status;Cota11Status;Cota12Status;Cota13Status;Cota14Status;Cota15Status;Cota16Status;Cota17Status;Cota18Status;Cota19Status;Cota20Status;Cota21Status;Cota22Status;Cota23Status;Cota24Status;Cota25Status;Cota26Status;Cota27Status;Cota28Status;Cota29Status;Cota30Status;Cota31Status
@@ -1664,7 +1664,7 @@ EstacaoCodigo;NivelConsistencia;Data;hora;MediaDiaria;TipoMedicaoCotas;Maxima;Mi
 14790000;1;01/07/1989;17:00;0;1;1195;1108;1136;1;15;1;1;1;;0;1195;1192;1190;1186;1182;1174;1168;1160;1152;1135;1123;1116;1112;1109;1108;1109;1111;1112;1113;1113;1116;1116;1117;1119;1120;1121;1123;1125;1127;1130;1135;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1
 14790000;1;01/07/1989;;1;1;1195;1108;1136;1;15;1;1;1;;0;1195;1193;1191;1187;1183;1177;1169;1162;1153;1142;1125;1118;1113;1110;1108;1109;1111;1112;1113;1113;1115;1116;1117;1119;1120;1121;1123;1125;1127;1129;1134;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1
 14790000;2;01/06/1989;;1;1;1202;1024;1140;25;1;1;1;1;0;0;1024;1036;1047;1059;1069;1078;1088;1096;1106;1111;1117;1123;1129;1134;1143;1152;1161;1169;1176;1184;1191;1195;1199;1201;1202;1202;1202;1200;1199;1197;;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;
-14790000;1;01/06/1989;17:00;0;1;11701;1021;1315;18;1;1;1;1;;0;1027;1039;1050;1061;1071;1080;1090;1098;1107;1112;1118;1124;1130;1136;1145;1154;1163;11701;1178;1186;1192;1196;1199;1201;1202;1202;1201;1199;1198;1196;;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0
+14790000;1;01/06/1989;17:00;0;1;11701;1021;1315;18;1;1;1;1;;0;1027;1039;1050;1061;1071;1080;1090;1098;1107;1112;1118;1124;1130;1136;1145;1154;1163;1171;1178;1186;1192;1196;1199;1201;1202;1202;1201;1199;1198;1196;;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0
 14790000;1;01/06/1989;07:00;0;1;11701;1021;1315;18;1;1;1;1;;0;1021;1033;1044;1056;1066;1076;1085;1094;1104;1109;1115;1122;1127;1132;1141;1149;1158;1167;1174;1182;1190;1194;1198;1200;1202;1202;1202;1200;1199;1197;;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0
 14790000;1;01/06/1989;;1;1;1202;1024;1140;25;1;1;1;1;;0;1024;1036;1047;1059;1069;1078;1088;1096;1106;1111;1117;1123;1129;1134;1143;1152;1161;1169;1176;1184;1191;1195;1199;1201;1202;1202;1202;1200;1199;1197;;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0
 14790000;2;01/05/1989;;1;1;1011;599;767;31;1;1;1;1;0;0;599;601;604;604;601;599;604;611;616;623;634;650;674;697;722;749;772;796;820;842;867;885;903;919;932;944;957;970;983;998;1011;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1

@@ -1,16 +1,16 @@
-Agência Nacional de Águas - ANA
-Superintendência de Gestão da Rede Hidrometeorológica-SGH
-Sistema de Informações Hidrológicas - Versão WEB
+Agï¿½ncia Nacional de ï¿½guas - ANA
+Superintendï¿½ncia de Gestï¿½o da Rede Hidrometeorolï¿½gica-SGH
+Sistema de Informaï¿½ï¿½es Hidrolï¿½gicas - Versï¿½o WEB
 Fone: (61) 2109-5242
 E-mail: hidro@ana.gov.br
 
 NivelConsistencia: 1 = Bruto, 2 = Consistido
-MediaDiaria: Indica se a medição é média diaria ou instantânea.  0 = Não , 1 = Sim
-TipoMedicaoCotas: 1 = Escala, 2 = Linígrafo, 3 = Data Logger, 5 = Escala SMS
-Status: 0 = Branco, 1 = Real, 2 = Estimado, 3 = Duvidoso, 4 = Régua Seca
+MediaDiaria: Indica se a mediï¿½ï¿½o ï¿½ mï¿½dia diaria ou instantï¿½nea.  0 = Nï¿½o , 1 = Sim
+TipoMedicaoCotas: 1 = Escala, 2 = Linï¿½grafo, 3 = Data Logger, 5 = Escala SMS
+Status: 0 = Branco, 1 = Real, 2 = Estimado, 3 = Duvidoso, 4 = Rï¿½gua Seca
 
-Restrições da consulta:
-Código da Estação:14620000
+Restriï¿½ï¿½es da consulta:
+Cï¿½digo da Estaï¿½ï¿½o:14620000
 
 
 EstacaoCodigo;NivelConsistencia;Data;hora;MediaDiaria;TipoMedicaoCotas;Maxima;Minima;Media;DiaMaxima;DiaMinima;MaximaStatus;MinimaStatus;MediaStatus;MediaAnual;MediaAnualStatus;Cota01;Cota02;Cota03;Cota04;Cota05;Cota06;Cota07;Cota08;Cota09;Cota10;Cota11;Cota12;Cota13;Cota14;Cota15;Cota16;Cota17;Cota18;Cota19;Cota20;Cota21;Cota22;Cota23;Cota24;Cota25;Cota26;Cota27;Cota28;Cota29;Cota30;Cota31;Cota01Status;Cota02Status;Cota03Status;Cota04Status;Cota05Status;Cota06Status;Cota07Status;Cota08Status;Cota09Status;Cota10Status;Cota11Status;Cota12Status;Cota13Status;Cota14Status;Cota15Status;Cota16Status;Cota17Status;Cota18Status;Cota19Status;Cota20Status;Cota21Status;Cota22Status;Cota23Status;Cota24Status;Cota25Status;Cota26Status;Cota27Status;Cota28Status;Cota29Status;Cota30Status;Cota31Status
@@ -1775,8 +1775,8 @@ EstacaoCodigo;NivelConsistencia;Data;hora;MediaDiaria;TipoMedicaoCotas;Maxima;Mi
 14620000;1;01/07/1985;17:00;0;1;650;303;502;27;9;1;1;1;;0;486;474;473;492;514;480;457;408;303;348;351;350;378;424;482;508;514;526;548;560;560;564;584;628;639;649;645;615;582;525;472;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1
 14620000;1;01/07/1985;;1;1;650;341;503;26;9;1;1;1;284;1;497;478;474;486;512;494;464;419;341;349;351;350;364;414;471;509;513;523;543;558;560;563;577;617;635;648;648;621;593;540;481;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1
 14620000;2;01/06/1985;;1;1;654;335;504;17;1;1;1;1;0;0;335;348;365;389;421;471;503;515;535;557;577;601;618;633;648;653;654;634;600;556;499;439;401;378;400;432;459;477;511;521;;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;
-14620000;1;01/06/1985;07:00;0;1;6513;332;602;17;1;1;1;1;;0;332;344;362;380;414;460;500;512;527;552;572;596;614;628;646;652;656;640;608;566;514;450;409;376;390;429;455;470;508;519;;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0
-14620000;1;01/06/1985;17:00;0;1;6513;332;602;17;1;1;1;1;;0;338;352;367;397;428;482;506;517;543;562;582;605;621;637;650;654;6513;628;592;545;483;427;392;380;409;434;463;484;514;522;;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0
+14620000;1;01/06/1985;07:00;0;1;653;332;602;17;1;1;1;1;;0;332;344;362;380;414;460;500;512;527;552;572;596;614;628;646;652;656;640;608;566;514;450;409;376;390;429;455;470;508;519;;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0
+14620000;1;01/06/1985;17:00;0;1;653;332;602;17;1;1;1;1;;0;338;352;367;397;428;482;506;517;543;562;582;605;621;637;650;654;653;628;592;545;483;427;392;380;409;434;463;484;514;522;;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0
 14620000;1;01/06/1985;;1;1;656;335;504;17;1;1;1;1;284;1;335;348;365;389;421;471;503;515;535;557;577;601;618;633;648;653;654;634;600;556;499;439;401;378;400;432;459;477;511;521;;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0
 14620000;2;01/05/1985;;1;1;321;92;202;31;3;1;1;1;0;0;94;96;92;106;123;167;180;211;214;150;180;163;161;184;205;234;242;243;246;256;278;257;227;203;185;192;221;258;277;289;321;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1
 14620000;1;01/05/1985;07:00;0;1;328;90;202;31;3;1;1;1;;0;92;98;90;104;118;135;170;208;215;204;184;166;158;178;201;228;242;242;245;248;279;264;234;208;186;189;212;251;264;286;314;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1
