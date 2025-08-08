@@ -4,6 +4,9 @@ import os
 import pandas as pd
 from calendar import monthrange
 
+import warnings
+warnings.filterwarnings('ignore')
+
 def criar_data_completa(data_base, dia):
     """Cria uma data completa, garantindo que o dia seja válido para o mês."""
     if pd.isna(data_base) or pd.isna(dia):
