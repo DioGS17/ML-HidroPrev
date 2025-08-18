@@ -103,8 +103,12 @@ def annual_plot(df: pd.DataFrame, figsize: tuple[int, int]):
         max_year, min_year = _max_min_year_(df[col])
         
         ax[i].plot(df[col], label='Cota')
+
         ax[i].scatter(max_year, df[col].loc[max_year], marker='x', color='red', label='Máximo Anual')
         ax[i].scatter(min_year, df[col].loc[min_year], marker='o', color='green', label='Mínimo Anual')
+
+        ax[i].axhline(y=np.mean(df[col].loc[max_year]), linestyle='--', color='red', label='Média Máxima')
+        ax[i].axhline(y=np.mean(df[col].loc[min_year]), linestyle='--', color='black', label='Média Mínima')
         
         ax[i].set_title(f'Cota {col}')
         ax[i].set_xlabel('Ano')
