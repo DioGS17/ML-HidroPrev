@@ -131,6 +131,8 @@ def cross_corr(df: pd.DataFrame, tgt: str):
         seasonal = decompostion.seasonal
         dados_dessazonalizados[c] = df[c] - seasonal
 
+    lags_list = []
+
     for c in dados_dessazonalizados.columns:
         if c == tgt:
             continue
@@ -144,4 +146,8 @@ def cross_corr(df: pd.DataFrame, tgt: str):
                 max_corr = corr
                 best_lag = i
         
+        lags_list.append(best_lag)
+        
         print(f"Estação {c}: Melhor lag = {best_lag}; Correlação = {max_corr:.4f}")
+
+    return lags_list
