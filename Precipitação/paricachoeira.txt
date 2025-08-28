@@ -1,7 +1,4 @@
-cdo(1) remapnn: Process started
-cdo(2) seldate: Process started
-#      date    lat    lon    value 
-cdo(1) remapnn: Nearest neighbor weights from lonlat (3600x1800) to lonlat (1x1) grid
+#      date    lat    lon    value
  1985-01-01 0.2494 -69.785      2.5 
  1985-01-02 0.2494 -69.785   1.9375 
  1985-01-03 0.2494 -69.785     8.75 
@@ -13151,6 +13148,3 @@ cdo(1) remapnn: Nearest neighbor weights from lonlat (3600x1800) to lonlat (1x1)
  2020-12-29 0.2494 -69.785  23.1875 
  2020-12-30 0.2494 -69.785 4.984375 
  2020-12-31 0.2494 -69.785 3.484375 
-cdo(2) seldate: Processed 85205520000 values from 1 variable over 15341 timesteps.
-cdo(1) remapnn: Processed 85205520000 values from 1 variable over 13149 timesteps.
-cdo    outputtab: Processed 13149 values from 1 variable over 13149 timesteps [10959.89s 187MB].
